@@ -13,6 +13,7 @@
 		B089A7F91F613AD200D1663E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B089A7F71F613AD200D1663E /* Main.storyboard */; };
 		B089A7FB1F613AD200D1663E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B089A7FA1F613AD200D1663E /* Assets.xcassets */; };
 		B089A7FE1F613AD200D1663E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B089A7FC1F613AD200D1663E /* LaunchScreen.storyboard */; };
+		B089A8071F66263600D1663E /* BezierPathView.m in Sources */ = {isa = PBXBuildFile; fileRef = B089A8061F66263600D1663E /* BezierPathView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		B089A7FA1F613AD200D1663E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B089A7FD1F613AD200D1663E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B089A7FF1F613AD200D1663E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B089A8051F66263600D1663E /* BezierPathView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BezierPathView.h; sourceTree = "<group>"; };
+		B089A8061F66263600D1663E /* BezierPathView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BezierPathView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				B089A7FC1F613AD200D1663E /* LaunchScreen.storyboard */,
 				B089A7FF1F613AD200D1663E /* Info.plist */,
 				B089A7EE1F613AD200D1663E /* Supporting Files */,
+				B089A8051F66263600D1663E /* BezierPathView.h */,
+				B089A8061F66263600D1663E /* BezierPathView.m */,
 			);
 			path = AnimateTest;
 			sourceTree = "<group>";
@@ -151,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B089A8071F66263600D1663E /* BezierPathView.m in Sources */,
 				B089A7F61F613AD200D1663E /* ViewController.m in Sources */,
 				B089A7F31F613AD200D1663E /* AppDelegate.m in Sources */,
 				B089A7F01F613AD200D1663E /* main.m in Sources */,
